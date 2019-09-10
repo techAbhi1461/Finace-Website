@@ -221,3 +221,43 @@ m-3{
 #what .boxes .box .service p{
     line-height: 1.5rem;
 }
+
+/* Who We Are */
+#who{
+    display: flex;
+    flex-wrap: nowrap;
+    background: red;
+}   
+
+#who .image{
+    flex: 1;
+    background: url('../img/people.jpg') no-repeat center center / cover;
+
+}
+
+#who .who-content{
+    flex: 1;
+    padding: 2rem;
+}
+
+#who .who-content h1{
+    font-size: 2rem; 
+    margin-bottom: 0.75rem;  
+}
+
+#who .who-content p{
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+#who .who-content .team h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #333;
+}
+
+#who .who-content .team ul li{
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #333;
+}
