@@ -34,12 +34,12 @@ a{
     padding: 1.5rem 0rem;
 }
 
-.py-1
+.py-2
 {
     padding: 2rem 0rem;
 }
 
-.py-1
+.py-3
 {
     padding: 3rem 0rem;
 }
@@ -54,7 +54,7 @@ a{
     padding: 2rem;
 }
 
-.py-3
+.p-3
 {
     padding: 3rem;
 }
@@ -86,7 +86,9 @@ m-3{
     color: #333
 }
 
-
+.text-primary{
+    color: #9b59b6;
+}
 
 /* Sticky Navbar */
 #navbar{
@@ -130,7 +132,7 @@ m-3{
 .showcase{
     background: url('../img/showcase.jpeg')no-repeat center center/cover;
     height: 100vh;
-    /* position: relative; */
+    position: relative; 
 }
 
 .showcase-content{
@@ -176,4 +178,46 @@ m-3{
 
 .showcase-content .btn:hover{
     background: #4F0D6A
+}
+
+/* What We Do */
+#what .header{
+    text-align: center;
+}
+
+#what .header h1{
+    font-size: 2rem;
+}
+
+#what .boxes{
+    display: flex;
+    text-align: center; 
+    padding: 1rem 2rem;
+}
+
+#what .boxes .box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+#what .boxes .box .pic{
+    margin-bottom: 1rem;
+    
+    
+}
+
+#what .boxes .box i{
+    background: #9b59b6;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+#what .boxes .box .service h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#what .boxes .box .service p{
+    line-height: 1.5rem;
 }
