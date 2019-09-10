@@ -261,3 +261,23 @@ m-3{
     padding: 0.5rem 0;
     border-bottom: 1px dotted #333;
 }
+
+/* Our Clients */
+#clients{
+    padding: 1rem;
+    text-align: center;
+}
+
+#clients .heading{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#clients .client-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+#clients .client-list img{
+    width: 110px;
+}
