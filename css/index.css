@@ -1,11 +1,18 @@
 /* #9b59b6 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* Css Reset */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;  
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     line-height: 1.4;
+}
+
+p{
+    line-height: 0.75rem;
 }
 
 h1, h2, h3, a{
@@ -20,5 +27,153 @@ a{
     text-decoration: none;
 }
 
-/* Sticky Navbar */
+/* Utility Classes */
 
+.py-1
+{
+    padding: 1.5rem 0rem;
+}
+
+.py-1
+{
+    padding: 2rem 0rem;
+}
+
+.py-1
+{
+    padding: 3rem 0rem;
+}
+
+.p-1
+{
+    padding: 1.5rem;
+}
+
+.p-2
+{
+    padding: 2rem;
+}
+
+.py-3
+{
+    padding: 3rem;
+}
+
+m-1{
+    margin: 1.5rem;
+}
+
+m-2{
+    margin: 2rem;
+}
+
+m-3{
+    margin: 3rem;
+}
+
+.bg-primary{
+    background: #9b59b6;
+    color: #fff; 
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-light{
+    background: #fff;
+    color: #333
+}
+
+
+
+/* Sticky Navbar */
+#navbar{
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    align-items: center;  
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#navbar h1{
+    display: flex;
+    color: white;
+}
+
+#navbar h1 .text-primary{
+    color: #9b59b6;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+    background: #9b59b6;
+    border-radius: 5px;
+}
+
+/* Showcase Section*/
+.showcase{
+    background: url('../img/showcase.jpeg')no-repeat center center/cover;
+    height: 100vh;
+    /* position: relative; */
+}
+
+.showcase-content{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background:rgba(0, 0, 0, 0.7); 
+    color: white;
+}
+
+
+
+.showcase-content h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 3.25rem;
+    line-height: 1.1rem;
+    
+}
+
+.showcase-content p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+} 
+
+.showcase-content .btn{
+    padding: 0.5rem 2rem;
+    background: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.showcase-content .btn:hover{
+    background: #4F0D6A
+}
