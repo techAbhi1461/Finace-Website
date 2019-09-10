@@ -276,8 +276,32 @@ m-3{
 #clients .client-list{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 #clients .client-list img{
     width: 110px;
+}
+
+/* Contact Section */
+.contact{
+    display: flex;
+}
+
+.contact .contact-form{
+    flex: 1;
+}
+
+.contact .contact-map{
+    flex: 2;
+}
+
+
+
+
+
+/* Footer */
+footer{
+    padding: 1rem;
+    text-align: center;
 }
